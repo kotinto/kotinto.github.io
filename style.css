@@ -1,0 +1,153 @@
+html{
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+    background-image: url("bg.png");
+}
+
+section {
+    max-width: 1064px;
+    margin: 0px auto;
+    overflow: hidden;
+    min-width: 300px;
+}
+
+#infoContainer {
+    position: absolute;
+    left: 43%;
+    width: 500px;
+    top: 78px;
+    text-align: center;
+    margin-left: -250px;
+}
+
+.box{
+    text-align: center;
+    font-size: 1.63em;
+    color: white;
+    margin: 2px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1.5px 2px 2px #000;
+    text-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.box a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.elements-10 {
+    background: orange; // no need to distinguish visually
+}
+
+.elements-63 {
+    background: orange;
+}
+
+.bleak {
+  color: lightgray;
+}
+
+.bubble-element{
+  fill: #ffffff;
+  font-weight: bold;
+  text-anchor: middle;
+}
+#scatterplot {
+  background: rgba(220, 220, 220, 1);
+}
+#scatterpoint-Al {
+  fill: fuchsia;
+}
+.priplyusnulo {
+    box-shadow: 1px 1px 1px #ccc;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#panelOne{
+    float: left;
+    width: 5.5556%;
+}
+
+#panelTwo{
+    float: left;
+    width: 5.5556%;
+    margin-top: 41px;
+}
+
+#panelThree{
+    float: left;
+    width: 5.5556%;
+    margin-top: 123px;
+}
+
+#lowerContainer{
+    float: right;
+    margin-top:1%;
+    width: 80%;
+}
+
+#target_div{
+    margin-top: 20px;
+    margin-left: 20px;
+    float:left;
+    width: 50%;
+}
+
+#detailsElement-fitdata{
+    float: right;
+    width: 40%;
+}
+
+#detailsElement-experiment{
+    float: left;
+    width: 50%;
+}
+
+span.vinet-color {
+  background: green
+}
+.vinet-mark {
+  fill: green
+}
+span.exp-color {
+  background-color: blue;
+}
+.exp-mark {
+  fill: blue
+}
+.aliminium-mark {
+  fill: fuchsia
+}
+
+#bar-Al {
+  fill: fuchsia;
+}
+span.bar-Al {
+  background-color: fuchsia;
+}
+span#freqmap-bar-bottom {
+  background-color: blue;
+}
+span#freqmap-bar-middle {
+  background-color: orange;
+}
+span#freqmap-bar-top {
+  background-color: red;
+}
+
+#element-Aluminium {
+  background-color: white; //rgba(255, 0, 0, 0.5);
+  color: black;
+  //border: 1px solid black;
+}
